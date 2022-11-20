@@ -1,7 +1,7 @@
 module "bigquery-dataset-gasolina" {
   source  = "./modules/bigquery"
-  dataset_id                  = "gasolina_brasil"
-  dataset_name                = "gasolina_brasil"
+  dataset_id                  = "gasolina_brasil01"
+  dataset_name                = "gasolina_brasil01"
   description                 = "Dataset a respeito do histórico de preços da Gasolina no Brasil a partir de 2004"
   project_id                  = var.project_id
   location                    = var.region
