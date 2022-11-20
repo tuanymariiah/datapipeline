@@ -30,7 +30,7 @@ variable "description" {
 
   validation {
     condition = length(var.description) >= 20
-    error_message = "A descrição do dataset deverá ser maior que 20 caracteres."
+    error_message = "A descrição do dataset deverá ser maior que 20 caracteres." 
   }
 }
 
