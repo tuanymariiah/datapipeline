@@ -168,4 +168,3 @@ variable "procedures" {
     })),
   }))
 }
-Footer
