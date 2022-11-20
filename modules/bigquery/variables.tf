@@ -165,6 +165,6 @@ variable "procedures" {
       data_type     = string,
       argument_kind = string,
       mode          = string,
-    }))
+    })),
   }))
 }
